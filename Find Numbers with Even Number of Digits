@@ -1,0 +1,10 @@
+def findnumbers(num):
+  total_count=0
+  for num in nums:
+    count=0
+    while num>0:
+      num//=10
+      count+=1
+    if count%2==0:
+      total_count+=1
+  return total_count
